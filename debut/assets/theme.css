@@ -1288,39 +1288,23 @@ h6,
       text-shadow: 0 0 4px rgba(0, 0, 0, 0.4); } }
 
 .mega-title {
-  margin-bottom: 8px; 
-  font-size:46px;
-  font-weight:700;
-}
+  margin-bottom: 8px; }
 
 .mega-title--large {
-  /*font-size: calc(((var(--font-size-header) + 8) / (var(--font-size-base))) * 1em); }*/
-  font-size:36px;
-  font-weight:700;
-}
+  font-size: calc(((var(--font-size-header) + 8) / (var(--font-size-base))) * 1em); }
   @media only screen and (min-width: 750px) {
     .mega-title--large {
-      /*font-size: calc(((var(--font-mega-title-large-desktop)) / (var(--font-size-base))) * 1em); */
-      font-size: 46px;
-        } 
-  }
+      font-size: calc(((var(--font-mega-title-large-desktop)) / (var(--font-size-base))) * 1em); } }
 
 @media only screen and (min-width: 750px) {
   .mega-subtitle {
     font-size: calc(((var(--font-size-base) + 4) / (var(--font-size-base))) * 1em);
-   
     margin: 0 auto; }
     .text-center .mega-subtitle {
       max-width: 75%; } }
 
-
-
-
 .mega-subtitle p {
-  color: var(--color-overlay-title-text); 
-   font-size: 24px;
-      font-weight:300; 
-   }
+  color: var(--color-overlay-title-text); }
 
 .mega-subtitle a {
   color: var(--color-overlay-title-text);
@@ -1333,12 +1317,7 @@ h6,
   font-weight: var(--font-weight-header); }
   @media only screen and (min-width: 750px) {
     .mega-subtitle--large {
-      /*font-size: calc(((var(--font-size-base) + 8) / (var(--font-size-base))) * 1em); */
-      
-      font-size: 24px;
-      font-weight:300;
-        } 
-  }
+      font-size: calc(((var(--font-size-base) + 8) / (var(--font-size-base))) * 1em); } }
 
 /*============================================================================
   Animation Classes and Keyframes
@@ -5875,21 +5854,7 @@ hr {
   z-index: 2; }
 
 .hero__btn {
-  margin-top: 27.5px; 
-  color: #FFFFFF;
-  background-color:#57AD68;
-  font-size:20px;
-  font-weight:300;
-  border-radius:1.5em;
-}
-hero__btn:hover {
-  color:  #57AD68;
-  background-color: #FFFFFF;
-}
-.btn.hero__btn:hover {
-  color:  #57AD68;
-  background-color: #FFFFFF;
-}
+  margin-top: 27.5px; }
 
 /*================ Fixed width ================*/
 .hero-fixed-width {
